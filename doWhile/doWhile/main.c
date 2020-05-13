@@ -9,7 +9,14 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+
+    int numero, soma = 0;
+    do {
+        printf("Informe um numero: ");
+        scanf("%d", &numero);
+        soma = soma + numero;
+    } while (numero != 0);
+        printf("A Soma é %d \n", soma);
+    
     return 0;
 }
