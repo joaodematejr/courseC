@@ -9,7 +9,14 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    //NÃO EXISTE BOOLEAN ENTÃO 0 É FALSO E 1 É TRUE
+    int booleano = 1;
+    
+    if (booleano) {
+        printf("Verdadeiro \n");
+    } else {
+        printf("Falso \n");
+    }
+    
     return 0;
 }
