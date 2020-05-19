@@ -1,5 +1,9 @@
-{\rtf1\ansi\ansicpg1252\cocoartf949
-{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+void mensagem(){
+    printf("Bem-Vindo...\n");
+}
+int soma(int num1, int num2){
+    return num1 + num2;
+}
+int multiplicacao(int num1, int num2){
+    return num1 * num2;
 }
